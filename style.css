@@ -1,0 +1,33 @@
+*{
+    font-family: 'Bangers', cursive;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid black;
+    
+}
+#top-area{
+    border: 1px solid blue;
+    display: flex;
+    align-items: stretch;
+    min-height: 50%;
+}
+#letter-area{
+    display: flex;
+    border: 1px solid yellow;
+    width: 25%;
+}
+#hangman-area{
+    display:flex;
+    border: 1px solid green;
+    width:75%;
+}
+#answer-area{
+    display:flex;
+    border: 1px solid red;
+    width: 100%;
+    height: 50%;
+    
+}
